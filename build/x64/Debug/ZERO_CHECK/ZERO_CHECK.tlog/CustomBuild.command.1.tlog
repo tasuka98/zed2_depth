@@ -1,0 +1,10 @@
+^C:\USERS\TASUKA\DESKTOP\DEPTH_PERCEPTION\BUILD\CMAKEFILES\78573718772BA50368B26EC89F75DB44\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tasuka/Desktop/Depth_Perception -BC:/Users/tasuka/Desktop/Depth_Perception/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tasuka/Desktop/Depth_Perception/build/depth_detect.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
