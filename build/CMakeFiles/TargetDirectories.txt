@@ -1,3 +1,0 @@
-C:/Users/tasuka/Desktop/Depth_Perception/build/CMakeFiles/depth_detect.dir
-C:/Users/tasuka/Desktop/Depth_Perception/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/tasuka/Desktop/Depth_Perception/build/CMakeFiles/ZERO_CHECK.dir
